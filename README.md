@@ -43,7 +43,7 @@ cd single-spa-mfe
 cd react-mfe
 npm install
 npm run start         # Runs on port 9001
-npm run start:standalone
+npm run start:standalone   # Runs standalone on port 8080 for easy local verification
 ```
 
 #### **shared-mfe**
@@ -52,6 +52,7 @@ npm run start:standalone
 cd ../shared-mfe
 npm install
 npm run start         # Runs on port 9002
+npm run start:standalone   # Runs standalone on port 8080 for easy local verification
 ```
 
 #### **root-mfe**
